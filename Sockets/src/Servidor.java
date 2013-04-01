@@ -11,18 +11,18 @@ public class Servidor {
 	public static void main(String[] args) throws InterruptedException {
 		// declarando o servidor
 		ServerSocket serv = null;
-		// declarando o socket de comunicação
+		// declarando o socket de comunicaï¿½ï¿½o
 		Socket s = null;
 		// declarando o leitor para a entrada de dados
 		BufferedReader entrada = null;
 		
 		BufferedWriter saida = null;
-		
+		//Testeeeeee
 		try {
-			// cria o ServerSocket na porta 7000 se estiver disponível
+			// cria o ServerSocket na porta 7000 se estiver disponï¿½vel
 			serv = new ServerSocket(7000);
-			// aguarda uma conexão na porta especificada e retorna
-			// o socket que irá comunicar com o cliente
+			// aguarda uma conexï¿½o na porta especificada e retorna
+			// o socket que irï¿½ comunicar com o cliente
 			
 			while(true) {
 			
@@ -41,14 +41,14 @@ public class Servidor {
 				
 			}
 		}
-		// trata possíveis exceções de input/output. Note que as
-		// exceções são as mesmas utilizadas para as classes de
+		// trata possï¿½veis exceï¿½ï¿½es de input/output. Note que as
+		// exceï¿½ï¿½es sï¿½o as mesmas utilizadas para as classes de
 		// java.io
 		catch (IOException e) {
 			System.out.println("Algum problema ocorreu para criar ou receber o socket.");
 		} finally {
 			try {
-				// encerra o socket de comunicação
+				// encerra o socket de comunicaï¿½ï¿½o
 				s.close();
 				// encerra o ServerSocket
 				serv.close();
