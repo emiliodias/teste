@@ -17,7 +17,7 @@ public class Servidor {
 		BufferedReader entrada = null;
 		
 		BufferedWriter saida = null;
-		//Testeeeeee
+		//Testeeeeeeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 		try {
 			// cria o ServerSocket na porta 7000 se estiver dispon�vel
 			serv = new ServerSocket(7000);
