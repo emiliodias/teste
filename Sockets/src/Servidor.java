@@ -9,7 +9,7 @@ import java.net.Socket;
 public class Servidor {
 
 	public static void main(String[] args) throws InterruptedException {
-		// declarando o servidor
+		// declarando o servidoraaaaaaaaaaaaaaaaa
 		ServerSocket serv = null;
 		// declarando o socket de comunica��o
 		Socket s = null;
